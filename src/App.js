@@ -1,5 +1,6 @@
 import './App.css';
 // import Logo from './smart-dimension.png'
+import Card from './components/card/Card.js'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
       <div className="body">
 
-        <div className="start">
+        <div className="">
           <div className="presentacion">
             <h3>Imprime en 3D de manera facil</h3>
           </div>
@@ -26,9 +27,19 @@ function App() {
 
         <div className="howto">
           <h4>¿Como usar?</h4>
-          {/* <card className="paso1"></card>
-          <card className="paso2"></card>
-          <card className="paso3"></card> */}
+          <div className="upper-card">
+            <Card className="paso1" classN="upper-card"></Card>
+          </div>
+          <div className="bottom">
+            <div className="bottom-card">
+              <Card className="paso2" classN="bottom-card"></Card>
+            </div>
+            <div className="bottom-card">
+              <Card className="paso3" classN="bottom-card"></Card>
+            </div>
+          </div>
+          
+
         </div>
 
         <div className="start">
