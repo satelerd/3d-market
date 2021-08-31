@@ -13,6 +13,9 @@ img {
 h4 {
   margin: 10px;
 }
+h5{
+  font-weight: normal;
+}
 
 .howto {
   display: grid;
