@@ -1,3 +1,18 @@
 # 3d-market
 
-Próximamente: Uber Eats, pero en vez de comida, impresiones 3d... Tu mandas algún diseño (puede ser desde el catálogo que se va a ofrecer o el archivo de impresión) y te conecta con alguna persona que tenga una impresora 3d, una vez impreso, se te envía el producto a tu casa!
+Impresion 3d facil
+
+
+## ¿Como usar?
+
+### Paso 1
+Busca un modelo que cumpla con los siguientes requisitos:
+- Debe ser un archivo .stl
+- No puede pesar mas de x[Gb]
+Puedes buscar el modelo en nuestro catalogo o de alguna otra fuente (recomendamos [thingiverse](https://www.thingiverse.com/) para buscar el modelo y [3dviewer](https://3dviewer.net/) para visualizarlo)
+
+### Paso 2
+Sube el archivo y despues selecciona tu perfil de impresion (con ayuda del visualizador)
+
+### Paso 3
+¡Listo! Smart Dimension te conectara con el impresor mas cercano y llegara a tu casa dentro de los proximos 2 dias habiles
