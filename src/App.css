@@ -23,6 +23,18 @@ h5{
   grid-gap: 15px;
 }
 
+
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  max-width: 600px;
+
+  margin: 0 auto;
+  gap: 10px;
+}
+
 .upper-card {
   border-radius: 8px;
   border: 1px solid #b1b3b6;
@@ -48,14 +60,4 @@ h5{
 
   width: 100%;
   padding: 10px;
-}
-
-.bottom {
-  display: flex;
-  justify-content: center;
-  width: 95%;
-  max-width: 600px;
-
-  margin: 0 auto;
-  gap: 10px;
 }
