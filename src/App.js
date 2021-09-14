@@ -19,7 +19,7 @@ const cardBody = [
       Puedes buscar el modelo en nuestro catalogo o de alguna otra fuente (recomendamos <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer">thingiverse</a> para buscar el modelo y <a href="https://3dviewer.net/" target="_blank" rel="noreferrer">3dviewer</a> para visualizarlo)
     </h5>
   </div>,
-  <h3 className="card-body">Elije el tamaño, material y calidad (con ayuda de nuestro visualizador)</h3>,
+  <h3 className="card-body">Sube el archivo y despues selecciona tu perfil de impresion (con ayuda del visualizador)</h3>,
   <h3 className="card-body">¡Listo! Smart Dimension te conectara con el impresor mas cercano y llegara a tu casa dentro de los proximos 2 dias habiles</h3>
 ]
 
