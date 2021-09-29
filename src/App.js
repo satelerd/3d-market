@@ -29,7 +29,16 @@ function App() {
     <div className="App">
 
       <header>
-        <h1>Smart Dimension</h1>
+        <div className="navbar">
+          <div className="navbar-content">
+            <img src="https://static.thenounproject.com/png/358773-200.png" alt=""></img>
+            <ul>
+              <li><a href="https://github.com/satelerd">Inicio</a></li>
+              <li><a href="https://github.com/satelerd">Imprime</a></li>
+              <li><a href="https://github.com/satelerd">Nuestra filosofia</a></li>
+            </ul>
+          </div>
+        </div>
       </header>
 
       {/*  */}
@@ -38,7 +47,7 @@ function App() {
 
         <div className="">
           <div className="presentacion">
-            <h3>Imprime en 3D de manera facil</h3>
+            <h1>Imprime facil en 3D</h1>
           </div>
           <div className="logo">
             <img src="https://static.thenounproject.com/png/358773-200.png" alt="" />

@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-img {
-  
-  width: 200px;
-  height: 100px;
-}
-
 h3 {
   margin: 5px;
 }
@@ -18,12 +12,48 @@ h5{
   font-weight: normal;
 }
 
+.navbar {
+  width: 90%;
+  height: 85px;
+  padding: 0px 5%;
+  background-color: white;
+
+  border-bottom: 1px solid whitesmoke;
+  box-shadow: 0px 0px 6px 2px rgb(0,0,0,0.2);
+
+  position:fixed;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  grid-gap: 100px;
+  list-style-type: none;
+
+}
+
+.body {
+  padding-top: 85px;
+}
+
+img {
+  
+  width: 200px;
+  height: 100px;
+}
+
 .howto {
   display: grid;
   grid-gap: 15px;
 }
-
-
 
 .bottom {
   display: flex;
