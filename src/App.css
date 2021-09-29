@@ -6,7 +6,7 @@ h3 {
   margin: 5px;
 }
 h4 {
-  margin: 10px;
+
 }
 h5{
   font-weight: normal;
@@ -16,7 +16,7 @@ h5{
   width: 90%;
   height: 85px;
   padding: 0px 5%;
-  background-color: white;
+  background-color: whitesmoke;
 
   border-bottom: 1px solid whitesmoke;
   box-shadow: 0px 0px 6px 2px rgb(0,0,0,0.2);
@@ -33,15 +33,18 @@ h5{
   justify-content: space-between;
 }
 
-ul {
+ul, li {
   display: flex;
   grid-gap: 100px;
   list-style-type: none;
-
 }
 
 .body {
   padding-top: 85px;
+}
+
+.presentacion {
+  margin-top: 30px;
 }
 
 img {
@@ -53,41 +56,15 @@ img {
 .howto {
   display: grid;
   grid-gap: 15px;
+  justify-items: center; 
 }
 
 .bottom {
   display: flex;
   justify-content: center;
-  width: 95%;
-  max-width: 600px;
+  width: 93%;
+  max-width: 720px;
 
-  margin: 0 auto;
-  gap: 10px;
+  gap: 15px;
 }
 
-.upper-card {
-  border-radius: 8px;
-  border: 1px solid #b1b3b6;
-  box-shadow: 0px 0px 12px 0px rgb(168, 166, 166);
-  box-shadow: 0px 0px 6px 2px rgb(0,0,0,0.2);
-  /* box-shadow: 0 2px 3px rgba(0,0,0,0.5); */
-
-
-  width: 90%;
-
-  margin: 0 auto;
-  justify-items: center;
-  max-width: 600px;
-
-  padding: 10px;
-}
-
-.bottom-card {
-  border-radius: 8px;
-  border: 1px solid #b1b3b6;
-  box-shadow: 0px 0px 12px 0px rgb(168, 166, 166);
-  box-shadow: 0px 0px 6px 2px rgb(0,0,0,0.2);
-
-  width: 100%;
-  padding: 10px;
-}

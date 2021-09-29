@@ -12,15 +12,15 @@ const cardBody = [
   <div>
     <h3 className="card-body">
       Busca un modelo que cumpla con los siguientes requisitos:
-      <li>Debe ser un archivo .stl</li>
-      <li>No puede pesar mas de x[Gb]</li>
+      <li>1. Debe ser un archivo .stl</li>
+      <li>2. No puede pesar mas de x[Gb]</li>
     </h3>
     <h5>
       Puedes buscar el modelo en nuestro catalogo o de alguna otra fuente (recomendamos <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer">thingiverse</a> para buscar el modelo y <a href="https://3dviewer.net/" target="_blank" rel="noreferrer">3dviewer</a> para visualizarlo)
     </h5>
   </div>,
   <h3 className="card-body">Sube el archivo y despues selecciona tu perfil de impresion (con ayuda del visualizador)</h3>,
-  <h3 className="card-body">¡Listo! Smart Dimension te conectara con el impresor mas cercano y llegara a tu casa dentro de los proximos 2 dias habiles</h3>
+  <h3 className="card-body">¡Listo! XXXXX te conectara con el impresor mas cercano y llegara a tu casa dentro de los proximos 2 dias habiles</h3>
 ]
 
 
@@ -31,7 +31,7 @@ function App() {
       <header>
         <div className="navbar">
           <div className="navbar-content">
-            <img src="https://static.thenounproject.com/png/358773-200.png" alt=""></img>
+            <a href="https://github.com/satelerd"><img src="https://static.thenounproject.com/png/358773-200.png" alt=""></img></a>
             <ul>
               <li><a href="https://github.com/satelerd">Inicio</a></li>
               <li><a href="https://github.com/satelerd">Imprime</a></li>
