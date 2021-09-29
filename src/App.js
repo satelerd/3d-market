@@ -57,6 +57,7 @@ function App() {
 
 
         <div className="howto">
+
           <h4>¿Como usar?</h4>
           <div className="upper-card">
             <Card className="paso1" title={cardTitle[0]} body={cardBody[0]}></Card>
