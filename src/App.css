@@ -54,17 +54,47 @@ img {
 }
 
 .howto {
+  margin: 16px 0px;
+
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 5px;
   justify-items: center; 
 }
 
+.howto-text {
+  margin-left: 25px;
+  justify-self: start;
+
+}
+
 .bottom {
-  display: flex;
-  justify-content: center;
   width: 93%;
   max-width: 720px;
 
+  display: flex;
+  justify-content: center;
   gap: 15px;
 }
 
+
+button {
+  width: 30;
+  padding: 10px;
+  margin: 10px;
+
+  color: black; 
+  background-color: white; 
+  border: 2px solid #239bc3;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 2px rgb(0,0,0,0.2);
+
+  border-color: salmon;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+
+  transition: all 0.3s;
+  background-color: salmon;
+}

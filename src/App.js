@@ -15,12 +15,23 @@ const cardBody = [
       <li>1. Debe ser un archivo .stl</li>
       <li>2. No puede pesar mas de x[Gb]</li>
     </h3>
+    <h5 className="deep-space">&nbsp;</h5>
     <h5>
-      Puedes buscar el modelo en nuestro catalogo o de alguna otra fuente (recomendamos <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer">thingiverse</a> para buscar el modelo y <a href="https://3dviewer.net/" target="_blank" rel="noreferrer">3dviewer</a> para visualizarlo)
+      Puedes usar nuestro catalogo o de alguna otra fuente
+    </h5>
+    <h5>
+      (recomendamos <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer">thingiverse</a> para buscar el modelo y <a href="https://3dviewer.net/" target="_blank" rel="noreferrer">3dviewer</a> para visualizarlo)
     </h5>
   </div>,
-  <h3 className="card-body">Sube el archivo y despues selecciona tu perfil de impresion (con ayuda del visualizador)</h3>,
-  <h3 className="card-body">¡Listo! XXXXX te conectara con el impresor mas cercano y llegara a tu casa dentro de los proximos 2 dias habiles</h3>
+  <div>
+    <h3 className="card-body">Sube el archivo y selecciona tu perfil de impresion</h3>
+    <h3 className="card-body">(visualizador)</h3>
+  </div>,
+
+  <div>
+    <h3 className="card-body">¡Listo!</h3>
+    <h3 className="card-body">Te conectamos con tu impresor mas cercano y llegara a tu casa</h3>
+  </div>,
 ]
 
 
@@ -58,7 +69,7 @@ function App() {
 
         <div className="howto">
 
-          <h4>¿Como usar?</h4>
+          <h4 className="howto-text">¿Como usar?</h4>
           <div className="upper-card">
             <Card className="paso1" title={cardTitle[0]} body={cardBody[0]}></Card>
           </div>
