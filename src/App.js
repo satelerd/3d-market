@@ -17,20 +17,20 @@ const cardBody = [
     </h3>
     <h5 className="deep-space">&nbsp;</h5>
     <h5>
-      Puedes usar nuestro catalogo o de alguna otra fuente
+      Puedes usar nuestro catalogo o de alguna otra fuente.
     </h5>
     <h5>
       (recomendamos <a href="https://www.thingiverse.com/" target="_blank" rel="noreferrer">thingiverse</a> para buscar el modelo y <a href="https://3dviewer.net/" target="_blank" rel="noreferrer">3dviewer</a> para visualizarlo)
     </h5>
   </div>,
   <div>
-    <h3 className="card-body">Sube el archivo y selecciona tu perfil de impresion</h3>
+    <h3 className="card-body">Sube el archivo y selecciona tu perfil de impresion.</h3>
     <h3 className="card-body">(visualizador)</h3>
   </div>,
 
   <div>
     <h3 className="card-body">¡Listo!</h3>
-    <h3 className="card-body">Te conectamos con tu impresor mas cercano y llegara a tu casa</h3>
+    <h3 className="card-body">Te conectamos con tu impresor mas cercano y llegara a tu casa.</h3>
   </div>,
 ]
 
