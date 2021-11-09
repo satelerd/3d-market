@@ -1,6 +1,6 @@
-# 3D Lab, Flum.py, Crafting Web
+# 3D Lab
 
-Impresion 3d fácil
+Impresión 3d fácil
 
 
 ## ¿Como usar?
