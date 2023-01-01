@@ -1,6 +1,6 @@
 # 3D Lab
 
-Impresión 3d fácil proximamente Q3 2022
+Impresión 3d fácil ahora funcionando
 
 
 ## ¿Como usar?
